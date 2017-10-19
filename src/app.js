@@ -20,8 +20,4 @@ function server(mockDb) {
     return app.listen(port);
 }
 
-if (!module.parent){    //if not testing
-    module.exports = server();
-}else{                  //if testing
-    module.exports = server
-}
+module.exports = server;

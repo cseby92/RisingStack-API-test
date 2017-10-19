@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha *.spec.js",
-	"start": "node app.js"
+    "test": "mocha ./src/*.spec.js",
+	"start": "./node index.js"
   },
   "repository": {
     "type": "git",
